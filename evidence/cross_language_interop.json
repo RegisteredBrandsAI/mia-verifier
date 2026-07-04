@@ -1,0 +1,28 @@
+{
+  "mia": {
+    "version": 1,
+    "subject": "sørensen-supply.example.com",
+    "legalName": "Sørensen & Møller Supply GmbH ™ 🏭",
+    "entityType": "corporation",
+    "jurisdiction": "DE",
+    "registrationId": "HRB-98765",
+    "issuedAt": "2026-07-01T00:00:00Z",
+    "expiresAt": "2027-07-01T00:00:00Z",
+    "issuer": {
+      "name": "RegisteredBrands Trust Registry",
+      "domain": "sørensen-supply.example.com",
+      "keyDirectory": "https://xn--srensen-supply-8sb.example.com/.well-known/jwks.json"
+    },
+    "riskScore": 0.30000000000000004,
+    "volume": 1e+21,
+    "unitPrice": 10,
+    "proof": {
+      "type": "MerchantIdentityProof-v1",
+      "alg": "Ed25519",
+      "created": "2026-07-04T20:41:05Z",
+      "verificationMethod": "https://xn--srensen-supply-8sb.example.com/.well-known/jwks.json#key-01",
+      "proofValue": "nBmyGcw_Xh3IKz8cbSBTTHmVaYLI3dItjWYLWhRvwh4mvhrW75ImNGGjApj28TT6JFgN11mOPLo5dSVmyw57CA"
+    }
+  },
+  "publicKey": "Wc8w828NLPFI6J9gpqrrin-Aqh63km4SwXcD9juc0a0"
+}

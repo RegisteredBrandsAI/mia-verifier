@@ -1,0 +1,64 @@
+{
+  "suite": "MIA v2 draft-aligned validation (field names + procedure per -01)",
+  "population": 1000,
+  "third_party_issued_fraction": 0.4,
+  "transactions": 12000,
+  "throughput_per_sec": 3287,
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "per_kind": {
+    "attacker_jwks_key_substitution": {
+      "n": 394,
+      "deviations": 0
+    },
+    "expired": {
+      "n": 434,
+      "deviations": 0
+    },
+    "issuedAt_boundary_exact": {
+      "n": 401,
+      "deviations": 0
+    },
+    "kid_missing": {
+      "n": 389,
+      "deviations": 0
+    },
+    "legit": {
+      "n": 7233,
+      "deviations": 0
+    },
+    "not_yet_valid": {
+      "n": 398,
+      "deviations": 0
+    },
+    "redirect": {
+      "n": 409,
+      "deviations": 0
+    },
+    "subject_mismatch": {
+      "n": 412,
+      "deviations": 0
+    },
+    "tampered_claims": {
+      "n": 337,
+      "deviations": 0
+    },
+    "unauthorized_third_party": {
+      "n": 389,
+      "deviations": 0
+    },
+    "unknown_proof_type": {
+      "n": 406,
+      "deviations": 0
+    },
+    "unrecognized_alg": {
+      "n": 404,
+      "deviations": 0
+    },
+    "wrong_content_type": {
+      "n": 394,
+      "deviations": 0
+    }
+  },
+  "verdict": "CLEAN"
+}
